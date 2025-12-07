@@ -821,10 +821,12 @@ class _EditItemScreenState extends State<EditItemScreen> {
     'grams',
     'KGs',
     'liters',
+    'ml'
     'lbs',
     'tbsp',
     'tsp',
     'cups'
+    'oz',
   ];
 
   @override

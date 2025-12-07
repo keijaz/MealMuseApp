@@ -13,6 +13,7 @@ import 'add_item_screen.dart';
 import 'settings.dart';
 import 'grocery_list.dart';
 import 'chatbot.dart';
+import 'scan_receipt.dart';
 
 // --- COLOR PALETTE (Required for local widgets) ---
 class AppColors {
@@ -212,6 +213,7 @@ class _HomeScreenContentState extends State<HomeScreenContent> {
     final savedRecipesLabel = TranslationHelper.t('Saved Recipes', 'محفوظ ریسیپیز');
     final settingsLabel = TranslationHelper.get('settings');
     final shoppingLabel = TranslationHelper.t('Shopping List', 'خریداری');
+    final openScannerLabel = TranslationHelper.t('Open Scanner', '');
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20.0),
@@ -230,10 +232,10 @@ class _HomeScreenContentState extends State<HomeScreenContent> {
             screen: RecipeApp(), // Navigates to FindRecipesScreen
           ),
           GridButton(
-            title: openInventoryLabel,
-            icon: Icons.kitchen_outlined, 
+            title: openScannerLabel,
+            icon: Icons.camera_alt, 
             color: AppColors.openInventory,
-            screen: InventoryCategoriesScreen(), // Navigates to InventoryScreen
+            screen: ScanRec(), // Navigates to InventoryScreen
           ),
           GridButton(
             title: savedRecipesLabel,

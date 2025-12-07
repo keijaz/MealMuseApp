@@ -39,10 +39,12 @@ class _GroceryListScreenState extends State<GroceryListScreen> {
     'grams',
     'KGs',
     'liters',
+    'ml'
     'lbs',
     'tbsp',
     'tsp',
     'cups'
+    'oz',
   ];
 
   final Map<String, double> _unitConversionFactors = {

@@ -104,10 +104,12 @@ class _AddItemScreenState extends State<AddItemScreen> {
     'grams',
     'KGs',
     'liters',
+    'ml'
     'lbs',
     'tbsp',
     'tsp',
     'cups'
+    'oz',
   ];
 
   // Helper methods for unit conversion
