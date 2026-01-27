@@ -21,7 +21,7 @@ MealMuse is a full-featured recipe discovery application that transforms househo
 
 ### 📦 Inventory & Item Management
 <div align="center">
-  <img src="./demo/Addltem.jpeg" width="200" alt="Add Item Screen">
+  <img src="./demo/AddItem.jpeg" width="200" alt="Add Item Screen">
   <img src="./demo/ExpiringSoon.jpeg" width="200" alt="Expiring Soon Items">
 </div>
 
