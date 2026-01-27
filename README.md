@@ -23,13 +23,13 @@ MealMuse is a full-featured recipe discovery application that transforms househo
 <div align="center">
   <img src="./demo/AddItem.jpeg" width="200" alt="Add Item Screen">
   <img src="./demo/ExpiringSoon.jpeg" width="200" alt="Expiring Soon Items">
+  <img src="./demo/RecipesPage.jpeg" width="200" alt="Recipes Page">
 </div>
 
 *Add new items to your inventory and track items nearing expiry date*
 
-### 🍳 Recipe Features
+### 🍳 Recipe
 <div align="center">
-  <img src="./demo/RecipesPage.jpeg" width="200" alt="Recipes Page">
   <img src="./demo/Recipe.jpg" width="200" alt="Recipe Details">
 </div>
 
